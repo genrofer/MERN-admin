@@ -1,0 +1,63 @@
+.orders {
+     width: 100%;
+     height: 100vh;
+}
+
+table {
+     width: 100%;
+     text-align: center;
+     border-collapse: collapse;
+     border: solid #800080;
+     overflow: auto;
+}
+
+th,
+tfoot td {
+     color: white;
+     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+     border: solid #800080;
+}
+
+th {
+     font-family: "Rock Salt", cursive;
+}
+
+td {
+     font-family: "Helvetica Neu", sans-serif;
+}
+
+tbody tr:nth-child(odd) {
+     background: #00990f;
+     background-image: url("https://raw.githubusercontent.com/thecodersguilduk/semantic-html-challenge/0cb2d50173711f84d249f73a168ca410f26252ca/assets/noise.png");
+}
+
+tbody tr:nth-child(even) {
+     background: #e495e4cc;
+     background-image: url("https://raw.githubusercontent.com/thecodersguilduk/semantic-html-challenge/0cb2d50173711f84d249f73a168ca410f26252ca/assets/noise.png");
+}
+
+tbody {
+     width: 100%;
+     overflow: scroll;
+}
+
+tbody tr {
+     width: 100%;
+}
+
+tbody tr td {
+     height: 50px;
+     width: 25%;
+     border: 2px solid black;
+}
+
+thead tr,
+tfoot tr {
+     background: #ccc;
+     font-size: 25px;
+}
+
+footer {
+     text-align: right;
+     font-family: "Rock Salt", cursive;
+}
